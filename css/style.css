@@ -1,0 +1,52 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utils */
+
+body{
+    font-family: sans-serif;
+}
+
+/* navigatore */
+#main-menu{
+    position: fixed;
+    right: 0;
+    top: 0;
+    
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 30px 15px;
+}
+
+a{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    background-color: rgb(1, 1, 133);
+    color: greenyellow;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+
+a:hover{
+    background-color: darkred;
+    color: black;
+}
+
+a:active{
+    background-color: rgb(1, 1, 133);
+    color: greenyellow;
+}
+
+
+/* main */
+
+
