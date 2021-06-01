@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* utils */
@@ -10,7 +11,6 @@
 body{
     font-family: sans-serif;
     text-align: center;
-    scroll-behavior: smooth;
 }
 
 /* navigatore */
@@ -40,7 +40,7 @@ a{
 }
 
 a:hover{
-    background-color: darkred;
+    background-color: orange;
     color: black;
 }
 
@@ -61,6 +61,14 @@ a:active{
     background-color: blue;
 }
 
+#img02{
+    background-color: red;
+}
+
+#img03{
+    background-color: yellow;
+}
+
 .showcase img{
     position: absolute;
     top: 50%;
@@ -76,7 +84,10 @@ a:active{
     transform: translateX(-50%);
 }
 
-#img01 h1{
+#img01 h1, #img02 h1{
     color: yellow;
 }
 
+#img03 h1{
+    color: green;
+}
