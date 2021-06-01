@@ -9,7 +9,7 @@
 /* utils */
 
 body{
-    font-family: sans-serif;
+    font-family: 'Anton', sans-serif;
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ a{
     background-color: rgb(117, 117, 117);
     color: rgb(0, 255, 0);
     text-decoration: none;
-    padding: 15px 20px;
+    padding: 15px 25px;
     border-radius: 50%;
 }
 
@@ -69,7 +69,7 @@ a:active{
     background-color: yellow;
 }
 
-.showcase img{
+.showcase figure{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -77,11 +77,11 @@ a:active{
 }
 
 .showcase h1{
-    font-size: 110px;
-    position: absolute;
+    font-size: 100px;
+    /* position: absolute;
     top: 70%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
 }
 
 #img01 h1, #img02 h1{
