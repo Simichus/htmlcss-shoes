@@ -9,6 +9,8 @@
 
 body{
     font-family: sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
 }
 
 /* navigatore */
@@ -16,6 +18,7 @@ body{
     position: fixed;
     right: 0;
     top: 0;
+    z-index: 1;
     
 }
 
@@ -29,8 +32,8 @@ a{
     font-size: 20px;
     font-weight: bold;
     line-height: 50px;
-    background-color: rgb(1, 1, 133);
-    color: greenyellow;
+    background-color: rgb(117, 117, 117);
+    color: rgb(0, 255, 0);
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 50%;
@@ -49,4 +52,31 @@ a:active{
 
 /* main */
 
+.showcase{
+    height: 100vh;
+    position: relative;
+}
+
+#img01{
+    background-color: blue;
+}
+
+.showcase img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.showcase h1{
+    font-size: 110px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#img01 h1{
+    color: yellow;
+}
 
